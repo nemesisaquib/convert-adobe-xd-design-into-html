@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+:root{
+ --black:#282C34;
+ --bottom:#707793 ;
+ --mani :#F8F8F8;
+ --text :#3BB99B;
+ --white: white;
+ --icon :#707070;
+
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    
+}
+
+
+body{
+    background-color: var(--black);
+    color:var(--white);
+    width: 100vw;
+height: 100vh;
+overflow: hidden;
+
+}
+
+
+header{
+    display: flex;
+}
+.one    {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar1,.navbar2 {
+     display: flex;
+    
+ }
+
+ .navbar2{
+    position: absolute;
+    right: 12%;
+}
+
+ ul li {
+
+    list-style-type: none;
+     padding: 14px;
+
+
+ }
+
+
+
+ li a {
+     text-decoration: none;
+     color: var(--white);
+ }
+
+.imgee{
+    width: 23px;
+    height: 23px;
+    top: 15px;
+   position: absolute;
+   right: 10%;
+    
+}
+
+.ddr {
+  
+    width: 50px;
+    height: 48px;
+    clip-path: circle(50% at 50% 50%);
+   
+    
+    position: absolute;
+    right: 5%;
+}
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 45px;
+}
+
+.neme{
+    font-size: 120px;
+  
+     margin-top: 100px;
+   text-transform: uppercase;
+    
+}
+  
+
+ .clo{
+    color: var(--text);
+    margin-left: 16px;
+    
+}
+
+span{
+    margin-left: 12px;
+}
+
+.sea{
+   
+    width: 100%;
+    
+}
+
+.sear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon{
+    width: 60%;
+    height: 70px;
+    border: 2.5px solid rgb(184, 184, 184);
+    border-radius: 37px;
+    background-color: var(--mani);
+    -webkit-box-shadow: 10px 10px 49px -10px rgba(59,185,155,0.35);
+    -moz-box-shadow: 10px 10px 49px -10px rgba(59,185,155,0.35);
+    box-shadow: 10px 10px 49px -10px rgba(59,185,155,0.45);
+}
+
+
+
+.icon2{
+    font-size: 28px;
+    color:var(--text);
+}
+
+
+.icon2 .fa-search{
+float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.icon2 .fa-microphone   {
+   float: right;
+   margin-top: 20px;
+  
+   position: relative;
+   right: 30px;
+}
+
+
+ .mainbar{
+     display: flex;
+     justify-content: space-around;
+     margin-top: 120px;
+
+     font-size: 22px;
+ }
+
+
+.bar {
+    width: 30%;
+    height: 60px;
+    border-radius: 35px;
+    background-color: white;
+ float: left;
+}
+
+.bar p {
+    color: var(--black);
+    text-align: center;
+    margin-top: 12px;
+}
+
+.bar2 p {
+    color: var(--black);
+    text-align: center;
+    margin-top: 12px;
+}
+
+
+.bar2{
+    width: 30%;
+    height: 60px;
+    border-radius: 35px;
+    background-color: white;
+  float: right;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer {
+    background: var(--bottom);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 71px;            /* Footer height */
+  }
+
+  #footer .navbar2{
+    position: absolute;
+    right: 10px;
+  }
+
+
